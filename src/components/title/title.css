@@ -1,0 +1,8 @@
+.title__box {
+    border-right: 4px solid var(--mainColor);
+    padding-right: 5px;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}

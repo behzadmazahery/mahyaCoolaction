@@ -1,0 +1,10 @@
+.link__btn {
+    border: 2px solid var(--mainColor);
+    padding: 7px 10px;
+    transition: all ease 0.5s;
+}
+
+.link__btn:hover {
+    background-color: var(--mainColor);
+    color: white;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: face;
+    src: url(../public/YekanBakh/yekanbakhen05medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: face;
+}
+
+:root {
+    --mainColor: rgb(105, 64, 9);
+    --secondColor: burlywood;
+    --thirdColor: rgba(222, 184, 135, 0.851);
+}
+
+a {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}

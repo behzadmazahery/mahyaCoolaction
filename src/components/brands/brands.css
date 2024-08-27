@@ -1,0 +1,19 @@
+.brands__box {
+    width: 100% !important;
+}
+
+.brands {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.brands__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.brands__item {
+    list-style-type: none;
+    display: grid;
+    place-items: center;
+}

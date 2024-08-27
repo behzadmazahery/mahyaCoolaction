@@ -1,0 +1,160 @@
+.productDetail {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+
+.productDetail__box {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    box-shadow: 0 0 5px var(--secondColor);
+    padding: 0.5rem;
+
+}
+
+.right__box {
+    grid-column: 1/6;
+}
+
+.productDetail__box .left__box {
+    grid-column: 6/13;
+}
+
+
+
+.head__product__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    padding: 0.5rem;
+
+}
+
+.product__select__image {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product__select__image img {
+    border: 2px solid var(--secondColor);
+    width: 100px;
+    margin-bottom: 1rem;
+    padding: 3px;
+}
+
+.product__select__image img:hover {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.right__box {
+    display: flex;
+    gap: 10px;
+}
+
+.right__box .product__img {
+    width: 80%;
+    object-fit: cover;
+
+}
+
+.product__interest {
+    font-size: 30px;
+}
+
+.left__head__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0.5rem 0.5rem;
+}
+
+.left__box {
+    line-height: 2;
+}
+
+.left__box p,
+button {
+    margin-bottom: 1rem;
+}
+
+.product__title {
+    font-size: 30px;
+}
+
+.product__category span {
+    font-size: 25px;
+    color: var(--mainColor);
+}
+
+.product__desc span,
+.product__qty span {
+    font-size: 25px;
+    color: var(--mainColor);
+}
+
+.line {
+    border: 1px solid var(--secondColor);
+}
+
+.product__addBtn {
+    border: 2px solid var(--mainColor);
+    transition: all ease 0.5s;
+}
+
+.product__addBtn:hover {
+    border: 2px solid var(--mainColor);
+    background-color: #fff;
+    color: var(--mainColor);
+
+}
+
+.product__price span,
+.product__longdesc span {
+    font-size: 25px;
+    color: var(--mainColor);
+}
+
+p {
+    font-size: clamp(1rem, 0.343, + 3.4783vw, 3rem)
+}
+
+.productDetail__box .product__img {
+    padding: 1rem;
+}
+
+.product__longdesc {
+    width: 80vw;
+    text-wrap: wrap;
+}
+
+@media only screen and (max-width : 700px) {
+    .right__box {
+        flex-direction: column;
+    }
+
+    .product__img {
+        order: -1;
+        width: 100% !important;
+    }
+
+    .product__select__image {
+        display: flex;
+        flex-direction: unset;
+    }
+
+    .right__box,
+    .left__box {
+        grid-column: 1 / -1 !important;
+    }
+
+    p {
+        font-size: 5vw;
+    }
+
+
+
+}

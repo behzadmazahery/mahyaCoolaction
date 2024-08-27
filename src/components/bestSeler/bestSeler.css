@@ -1,0 +1,54 @@
+.suggestion__slider {
+    width: 100% !important;
+}
+
+
+.bestSeler__box {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.bestSeler__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.bestSeler__info {
+    background-color: var(--thirdColor);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    transform: translateY(-50%);
+    line-height: 2;
+    box-shadow: 0 0 5px var(--mainColor);
+}
+
+.bestSeler__title {}
+
+.bestSeler__desc {
+    font-size: 14px;
+}
+
+.bestSEler__price {
+    font-size: 20px;
+}
+
+.bestSeler__btn {
+    width: 100%;
+    padding: 7px;
+    display: block;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--thirdColor);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--mainColor);
+    transition: all 0.3s ease-in-out;
+}
+
+.bestSeler__btn:hover {
+    border: 1px solid var(--mainColor);
+    background-color: var(--thirdColor);
+    color: var(--mainColor);
+}

@@ -1,0 +1,61 @@
+.footer {
+    width: 100%;
+    background-color: var(--secondColor);
+}
+
+.footer__box {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+
+.footer__box article {
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.footer__logo {
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: color-burn;
+}
+
+.footer__center {
+    text-align: center;
+}
+
+footer li {
+    list-style-type: none;
+
+}
+
+.footer__right {}
+
+
+.footer__login {
+    gap: 2px;
+}
+
+.footer__login input,
+button {
+    color: #fff;
+    padding: 7px;
+    border: none;
+    background-color: var(--mainColor);
+    outline: none;
+
+}
+
+.footer__login input {
+    width: 200px;
+    margin-right: 5px;
+}
+
+.footer__login button {
+    cursor: pointer;
+}

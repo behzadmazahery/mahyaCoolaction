@@ -1,0 +1,45 @@
+.blogs {
+    width: 85%;
+    margin: 3rem auto;
+
+}
+
+.blog__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px
+}
+
+
+.blog__img__box {}
+
+
+.blog__item {
+    box-shadow: 0 0 5px var(--secondColor);
+    position: relative;
+}
+
+.blog__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog__info {
+    padding: 1rem;
+}
+
+.blog__title {}
+
+.blog__text {}
+
+.blog__at {}
+
+.blog__date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: var(--secondColor);
+    padding: 7px;
+    font-size: 13px;
+}
